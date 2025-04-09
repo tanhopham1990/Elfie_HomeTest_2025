@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Group Run">
+        <classes>
+            <class name="com.arlosoft.macrodroid.mobile.TC001_Mobile_AddNewMacro" />
+            <class name="com.arlosoft.macrodroid.mobile.TC002_Mobile_AddActionBlocks" />
+        </classes>
+    </test>
+</suite>
