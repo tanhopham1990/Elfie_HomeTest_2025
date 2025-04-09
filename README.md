@@ -56,3 +56,7 @@ To build the automation framework, we need check-out the project to local
 - From the terminal
 
 `cd {baseDir}/test-output`
+
+## Recording
+- https://drive.google.com/file/d/1sIs-tgQ2FXHOb0yyC8DhicJgWHWES8-B/view?usp=sharing
+
