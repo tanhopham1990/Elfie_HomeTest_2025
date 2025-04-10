@@ -2,6 +2,7 @@ package com.arlosoft.macrodroid.mobile;
 
 import com.arlosoft.macrodroid.exception.AutomationException;
 import com.arlosoft.macrodroid.utils.ExtentManager;
+import com.arlosoft.macrodroid.utils.SoftAssertUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestResult;
@@ -19,6 +20,7 @@ public abstract class MobileTestCaseBase {
 
     @BeforeSuite(alwaysRun = true)
     public void setupExtentReports() {
+        SoftAssertUtil.createInstance();
         ExtentManager.createInstance();
     }
 
@@ -44,6 +46,7 @@ public abstract class MobileTestCaseBase {
     @AfterSuite(alwaysRun = true)
     public void flushReports() {
         ExtentManager.flushReports();
+        SoftAssertUtil.assertAll();
     }
 
     protected DashboardMobilePage openArlosoftApp() throws AutomationException {

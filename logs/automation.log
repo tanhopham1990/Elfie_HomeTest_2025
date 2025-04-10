@@ -1,68 +1,73 @@
-2025-04-10 00:45:25 [main] INFO  MobileTestWrapper - Starting a new 'ANDROID' Driver
-2025-04-10 00:45:25 [main] INFO  MobileTestWrapper - Starting a new Appium service
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - Appium service started with URL http://0.0.0.0:31672/.
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - =============================================================
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (adbExecTimeout): [60000]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (androidInstallTimeout): [120000]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (app): [/Users/tanho/Documents/App/macrodroid.apk]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (appPackage): [com.arlosoft.macrodroid]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (appWaitActivity): [com.arlosoft.macrodroid.intro.IntroActivity]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (autoAcceptAlerts): [true]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (autoGrantPermissions): [true]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (autoLaunch): [true]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (automationName): [UiAutomator2]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (browserName): []
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (browserVersion): []
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (dataReset): [true]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (deviceName): [emulator-5554]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (platformName): [ANDROID]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (uiautomator2ServerInstallTimeout): [60000]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - capabilities (uiautomator2ServerLaunchTimeout): [60000]
-2025-04-10 00:45:26 [main] INFO  MobileTestWrapper - =============================================================
-2025-04-10 00:45:30 [main] INFO  AbstractMobilePage - Tap on Skip button
-2025-04-10 00:45:32 [main] INFO  AbstractMobilePage - Tap on Back button
-2025-04-10 00:45:33 [main] INFO  DashboardMobilePage - Tap on 'Action Blocks' button
-2025-04-10 00:45:33 [main] INFO  ActionBlocksMobilePage - Tap on Add button
-2025-04-10 00:45:35 [main] INFO  ActionBlocksMobilePage - Enter action block name: Block name 123
-2025-04-10 00:45:36 [main] INFO  ActionBlocksMobilePage - Enter action block description: Block description 1234
-2025-04-10 00:45:37 [main] INFO  ActionBlocksMobilePage - Tap on add input variable button
-2025-04-10 00:45:37 [main] INFO  AbstractMobilePage - Enter local variable name: Test Input Variable
-2025-04-10 00:45:38 [main] INFO  AbstractMobilePage - Tap on variable type dropdown
-2025-04-10 00:45:39 [main] INFO  AbstractMobilePage - Tap on variable type dropdown item: Boolean
-2025-04-10 00:45:40 [main] INFO  AbstractMobilePage - Tap on 'OK' button
-2025-04-10 00:45:40 [main] INFO  ActionBlocksMobilePage - Tap on input collapse button
-2025-04-10 00:45:41 [main] INFO  ActionBlocksMobilePage - Tap on input variable name item
-2025-04-10 00:45:43 [main] INFO  AbstractMobilePage - Tap on True radio button
-2025-04-10 00:45:44 [main] INFO  AbstractMobilePage - Tap on 'OK' button
-2025-04-10 00:45:44 [main] INFO  ActionBlocksMobilePage - Tap on add actions button
-2025-04-10 00:45:45 [main] INFO  ActionMobilePage - Tap on 'Logging' item
-2025-04-10 00:45:46 [main] INFO  ActionMobilePage - Tap on 'Clear Log' item
-2025-04-10 00:45:48 [main] INFO  ActionMobilePage - Tap on 'System Log' option
-2025-04-10 00:45:48 [main] INFO  AbstractMobilePage - Tap on 'OK' button
-2025-04-10 00:45:49 [main] INFO  ActionBlocksMobilePage - Tap on add output variable button
-2025-04-10 00:45:50 [main] INFO  AbstractMobilePage - Enter local variable name: Test Output Variable
-2025-04-10 00:45:52 [main] INFO  AbstractMobilePage - Tap on variable type dropdown
-2025-04-10 00:45:52 [main] INFO  AbstractMobilePage - Tap on variable type dropdown item: String
-2025-04-10 00:45:53 [main] INFO  AbstractMobilePage - Tap on 'OK' button
-2025-04-10 00:45:53 [main] INFO  ActionBlocksMobilePage - Tap on output collapse button
-2025-04-10 00:45:54 [main] INFO  ActionBlocksMobilePage - Tap on output variable name item
-2025-04-10 00:45:55 [main] INFO  AbstractMobilePage - Enter local variable value: This is a testing string
-2025-04-10 00:45:57 [main] INFO  AbstractMobilePage - Tap on 'OK' button
-2025-04-10 00:45:57 [main] INFO  ActionBlocksMobilePage - Validate input variable name: Test Input Variable
-2025-04-10 00:45:58 [main] INFO  AbstractMobilePage - Validate text equals [Test Input Variable]
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Validate input variable detail: Default: True
-2025-04-10 00:45:58 [main] INFO  AbstractMobilePage - Validate text equals [Default: True]
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Validate action name: Clear Log
-2025-04-10 00:45:58 [main] INFO  AbstractMobilePage - Validate text equals [Clear Log]
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Validate action detail: System Log
-2025-04-10 00:45:58 [main] INFO  AbstractMobilePage - Validate text equals [System Log]
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Validate output variable name: Test Output Variable
-2025-04-10 00:45:58 [main] INFO  AbstractMobilePage - Validate text equals [Test Output Variable]
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Validate output variable detail: Default: This is a testing string
-2025-04-10 00:45:58 [main] INFO  AbstractMobilePage - Validate text equals [Default: This is a testing string]
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Tap on Accept button
-2025-04-10 00:45:58 [main] INFO  ActionBlocksMobilePage - Validate action block name: Block name 123
-2025-04-10 00:45:59 [main] INFO  AbstractMobilePage - Validate text equals [Block name 123]
-2025-04-10 00:45:59 [main] INFO  ActionBlocksMobilePage - Validate action block description: Block description 1234
-2025-04-10 00:45:59 [main] INFO  AbstractMobilePage - Validate text equals [Block description 1234]
-2025-04-10 00:45:59 [main] INFO  MobileTestWrapper - Mobile driver is closing ...
+2025-04-10 10:05:36 [main] INFO  MobileTestWrapper - Starting a new 'ANDROID' Driver
+2025-04-10 10:05:36 [main] INFO  MobileTestWrapper - Starting a new Appium service
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - Appium service started with URL http://0.0.0.0:27499/.
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - =============================================================
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (adbExecTimeout): [60000]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (androidInstallTimeout): [120000]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (app): [/Users/tanho/Documents/App/macrodroid.apk]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (appPackage): [com.arlosoft.macrodroid]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (appWaitActivity): [com.arlosoft.macrodroid.intro.IntroActivity]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (autoAcceptAlerts): [true]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (autoGrantPermissions): [true]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (autoLaunch): [true]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (automationName): [UiAutomator2]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (browserName): []
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (browserVersion): []
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (dataReset): [true]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (deviceName): [emulator-5554]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (platformName): [ANDROID]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (uiautomator2ServerInstallTimeout): [60000]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - capabilities (uiautomator2ServerLaunchTimeout): [60000]
+2025-04-10 10:05:37 [main] INFO  MobileTestWrapper - =============================================================
+2025-04-10 10:05:42 [main] INFO  AbstractMobilePage - Tap on Skip button
+2025-04-10 10:05:44 [main] INFO  AbstractMobilePage - Tap on Back button
+2025-04-10 10:05:44 [main] INFO  DashboardMobilePage - Tap on 'Add Macro' button
+2025-04-10 10:05:45 [main] INFO  MacrosMobilePage - Tap on 'Add trigger' button
+2025-04-10 10:05:46 [main] INFO  TriggerMobilePage - Tap on 'Applications' category
+2025-04-10 10:05:47 [main] INFO  TriggerMobilePage - Tap on 'App Install/Removal/Update' item
+2025-04-10 10:05:48 [main] INFO  TriggerMobilePage - Tap on 'Application Removed' option
+2025-04-10 10:05:49 [main] INFO  AbstractMobilePage - Tap on 'OK' button
+2025-04-10 10:05:50 [main] INFO  TriggerMobilePage - Tap on 'Any Application' item
+2025-04-10 10:05:51 [main] INFO  AbstractMobilePage - Tap on 'OK' button
+2025-04-10 10:05:51 [main] INFO  MacrosMobilePage - Validate trigger name: Application Removed
+2025-04-10 10:05:52 [main] INFO  AbstractMobilePage - Validate text equals [Application Removed]
+2025-04-10 10:05:52 [main] INFO  SoftAssertUtil - Validating text equals: Expected [Application Removed], Actual [Application Removed]
+2025-04-10 10:05:52 [main] INFO  MacrosMobilePage - Validate trigger detail: Any Application
+2025-04-10 10:05:52 [main] INFO  AbstractMobilePage - Validate text equals [Any Application]
+2025-04-10 10:05:52 [main] INFO  SoftAssertUtil - Validating text equals: Expected [Any Application], Actual [Any Application]
+2025-04-10 10:05:52 [main] INFO  MacrosMobilePage - Tap on 'Add action' button
+2025-04-10 10:05:52 [main] INFO  ActionMobilePage - Tap on 'Logging' item
+2025-04-10 10:05:53 [main] INFO  ActionMobilePage - Tap on 'Clear Log' item
+2025-04-10 10:05:55 [main] INFO  ActionMobilePage - Tap on 'System Log' option
+2025-04-10 10:05:56 [main] INFO  AbstractMobilePage - Tap on 'OK' button
+2025-04-10 10:05:56 [main] INFO  MacrosMobilePage - Validate action name: Clear Log
+2025-04-10 10:05:57 [main] INFO  AbstractMobilePage - Validate text equals [Clear Log]
+2025-04-10 10:05:57 [main] INFO  SoftAssertUtil - Validating text equals: Expected [Clear Log], Actual [Clear Log]
+2025-04-10 10:05:57 [main] INFO  MacrosMobilePage - Validate action detail: System Log
+2025-04-10 10:05:57 [main] INFO  AbstractMobilePage - Validate text equals [System Log]
+2025-04-10 10:05:57 [main] INFO  SoftAssertUtil - Validating text equals: Expected [System Log], Actual [System Log]
+2025-04-10 10:05:57 [main] INFO  MacrosMobilePage - Tap on 'Add constraint' button
+2025-04-10 10:05:57 [main] INFO  ActionMobilePage - Tap on 'Device State' category
+2025-04-10 10:05:59 [main] INFO  ActionMobilePage - Tap on 'Airplane mode' item
+2025-04-10 10:06:00 [main] INFO  ActionMobilePage - Tap on 'Airplane mode disabled' option
+2025-04-10 10:06:01 [main] INFO  AbstractMobilePage - Tap on 'OK' button
+2025-04-10 10:06:01 [main] INFO  MacrosMobilePage - Validate constraint name: Airplane Mode Disabled
+2025-04-10 10:06:03 [main] INFO  AbstractMobilePage - Validate text equals [Airplane Mode Disabled]
+2025-04-10 10:06:03 [main] INFO  SoftAssertUtil - Validating text equals: Expected [Airplane Mode Disabled], Actual [Airplane Mode Disabled]
+2025-04-10 10:06:03 [main] INFO  MacrosMobilePage - Tap on 'Local variable' button
+2025-04-10 10:06:03 [main] INFO  MacrosMobilePage - Tap on 'Add Local variable' button
+2025-04-10 10:06:04 [main] INFO  AbstractMobilePage - Enter local variable name: Test Case
+2025-04-10 10:06:04 [main] INFO  AbstractMobilePage - Tap on variable type dropdown
+2025-04-10 10:06:05 [main] INFO  AbstractMobilePage - Tap on variable type dropdown item: Integer
+2025-04-10 10:06:06 [main] INFO  AbstractMobilePage - Tap on 'OK' button
+2025-04-10 10:06:07 [main] INFO  MacrosMobilePage - Tap on local variable name item
+2025-04-10 10:06:07 [main] INFO  AbstractMobilePage - Enter local variable value: 1
+2025-04-10 10:06:08 [main] INFO  AbstractMobilePage - Tap on 'OK' button
+2025-04-10 10:06:08 [main] INFO  MacrosMobilePage - Validate local variable name: Test Case 1
+2025-04-10 10:06:09 [main] INFO  AbstractMobilePage - Validate text equals [Test Case 1]
+2025-04-10 10:06:09 [main] INFO  SoftAssertUtil - Validating text equals: Expected [Test Case 1], Actual [Test Case]
+2025-04-10 10:06:09 [main] INFO  MacrosMobilePage - Validate local variable value: 2
+2025-04-10 10:06:09 [main] INFO  AbstractMobilePage - Validate text equals [2]
+2025-04-10 10:06:09 [main] INFO  SoftAssertUtil - Validating text equals: Expected [2], Actual [1]
+2025-04-10 10:06:09 [main] INFO  MobileTestWrapper - Mobile driver is closing ...
+2025-04-10 10:06:09 [main] INFO  SoftAssertUtil - Executing assertAll()

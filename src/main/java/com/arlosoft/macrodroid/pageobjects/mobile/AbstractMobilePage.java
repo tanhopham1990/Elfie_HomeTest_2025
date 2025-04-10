@@ -1,6 +1,7 @@
 package com.arlosoft.macrodroid.pageobjects.mobile;
 
 import com.arlosoft.macrodroid.exception.AutomationException;
+import com.arlosoft.macrodroid.utils.SoftAssertUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.arlosoft.macrodroid.wrappers.MobileTestWrapper;
@@ -72,9 +73,7 @@ public class AbstractMobilePage {
 
     public void validateTextEquals(String actualText, String expectedText) throws AutomationException {
         logger.info("Validate text equals [{}]", expectedText);
-        if (!actualText.equals(expectedText)) {
-            throw new AutomationException("Actual text: [%s] / Expected text: [%s]", actualText, expectedText);
-        }
+        SoftAssertUtil.validateTextEquals(actualText, expectedText);
     }
 
 }
